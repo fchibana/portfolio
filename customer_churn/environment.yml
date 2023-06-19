@@ -1,0 +1,12 @@
+name: conda_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pandas
+  - pycaret
+  - jupyterlab
+prefix: ""
